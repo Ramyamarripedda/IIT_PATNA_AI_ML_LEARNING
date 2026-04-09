@@ -97,7 +97,7 @@
 # print(a >= b)   # false
 # print(a <= b)   # true
 
-# =====IF statement=====:
+# ===== IF statement=====:
 # marks = 89
 # cut_off = 45
 # if marks > cut_off:
@@ -127,6 +127,58 @@
 # else:
 #     print(f"{number} is odd number")
 
-# ======IF, ELSE, ELIS statement=====:
+# ====== IF statement=====:
+
+# marks = int(input ("enter your marks:"))
+# if marks >= 90:
+#     print("grade: A") # if marks > 90, then it will print grade A,B,C 
+# if marks >= 70:       # because if statement will print all the passibilities which are true.
+#     print("grade: B") # to over come this we have to use elif statement
+# if marks >= 50:
+#     print("grade: C")
+# if marks < 50:
+#     print("grade: F")
+
+#====== if, else statement ======:
+
+# marks = int(input("enter your marks:"))  #but this code is little bit complex
+# if marks >= 90:                          # to over come this elif statement is used
+#     print("grade : A")
+# else:
+#     if marks >= 70:
+#         print("grade : B")
+#     else:
+#         if marks >= 50:
+#             print("grade : C")
+#         else:
+#             print("grade : FAIL")
+
+# ====== IF, ELIF, ELSE statement ======:
+
+# marks = int(input("enter the marks:"))
+# if marks >= 90:
+#     print("grade : A")
+# elif marks >= 70:
+#     print("grade : B")
+# elif marks >= 50:
+#     print("grade : C")
+# else:
+#     print("gradeage : FAIL")
+
+#===== and, or, and, not Boolean (logical) operators =====:
 
 
+# age = int(input("enter your age:"))
+# if age >= 18 and age <= 60:
+#     print("you are eligible for voting")
+# else:
+#     print("you are not eligible for voting")
+
+# ex2:
+
+# age = int(input("enter your age:"))
+# is_student = input("are you a student? (yes/no)")
+# if(is_student == "yes" and age <=25) or (age >= 60):
+#     print("you are elegible for discount")
+# else:
+#     print("you are not elegible for discount")
