@@ -1,4 +1,4 @@
-# data types in python (int, float, str, bool):
+# ====== data types in python (int, float, str, bool): =======
 
 # print("hello, all the best for learning python")  # string data type
 
@@ -44,7 +44,8 @@
 # print (10 == 10)
 # print (10 == 5)
 
-# Type conversion (casting): (int, float, str, bool)
+# =====Type conversion (casting): (int, float, str, bool)======
+
 # int() ------> converts a value to an integer data type
 # float() -----> converts a value to a float data type
 # str() -------> converts a value to a string data type
@@ -83,4 +84,49 @@
 # print(type(bill_float))
 # print(type(bill_int))
 # print(bill_int)
+
+# =====conditionals (if, elif, else)======:
+# =====operators (==, !=, >, <, >=, <=)======:
+
+# a = 13
+# b = 15
+# print(a == b)   # false
+# print(a != b)   # true
+# print(a > b)    # false
+# print(a < b)    # true
+# print(a >= b)   # false
+# print(a <= b)   # true
+
+# =====IF statement=====:
+# marks = 89
+# cut_off = 45
+# if marks > cut_off:
+#     print("passed")
+# print("after the execution")
+
+# marks = 20
+# cut_off = 45
+# if marks > cut_off:
+#     print("passed")
+# print("after the execution")
+
+# =====IF, ELSE statement=====:
+
+# marks = 89
+# cut_off = 45
+# if marks > cut_off:
+#     print("passed")
+# else:
+#     print("failed")
+
+# =====introducing input function=====:
+
+# number = int(input("enter any number:"))
+# if number % 2 == 0:
+#     print(f"{number} is even number")
+# else:
+#     print(f"{number} is odd number")
+
+# ======IF, ELSE, ELIS statement=====:
+
 
